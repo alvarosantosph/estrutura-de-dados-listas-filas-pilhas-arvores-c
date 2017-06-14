@@ -1,12 +1,12 @@
 /**
- * EXERCÕCIO - Arvore
+ * EXERC√çCIO - Arvore
  *
  * UNIPE - CENTRO UNIVERSITAIO DE JOAO PESSOA
- * CURSO: CIENCIA DA COMPUTA«√O - 3∞ PERIODO - 2017.1
- * MAT…RIA: ESTRUTURA DE DADOS I
+ * CURSO: CIENCIA DA COMPUTA√á√ÉO - 3¬∞ PERIODO - 2017.1
+ * MAT√âRIA: ESTRUTURA DE DADOS I
  * PROFESSOR: WALLACE BONFIM
  * ALUNO: ALVARO PHILIPE ANDRADE DOS SANTOS
- * MATRÕCULA: 1610015475
+ * MATR√çCULA: 1610015475
  */
 
 #include <stdio.h>
@@ -42,7 +42,7 @@ typedef struct no {
 typedef t_no* t_arvore;
 
 /**
- * ProtÛtipos de funÁıes
+ * Prot√≥tipos de fun√ß√µes
  */
 
 // Exibe arvore
@@ -114,7 +114,7 @@ int main() {
 			
 			case 1:
 				do{
-					printf("Digite o numero que voce deseja inserir na arvore: ");
+					printf("Digite o nome que voce deseja inserir na arvore: ");
 					scanf("%s", dado.nome);
 					
 					inserir(&arvore, dado);
